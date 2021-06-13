@@ -1,0 +1,1 @@
+INSERT INTO SongData SELECT * FROM CSVREAD('src/main/resources/data/songs.csv');
